@@ -2,3 +2,6 @@ Very fast implementation of Gaussian Blur algorithm in c#.
 
 Based on an article of Ivan Kuckir:
 http://blog.ivank.net/fastest-gaussian-blur.html
+
+Amended 8 Oct 2017 to cater for transparent imaages
+Blur is now applied to alpha channel as well as R, G, B channels
